@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<!DOCTYPE html>
+<html>
+<meta charset="utf-8">
+<meta name="Description" content="HTML form">
+<meta name="author" content="Tolu">
+<head>
+	<title>Personal form assignment</title>
+</head>
+<body>
+	<form>
+		<h1> REGISTRATION FORM</h1>
+		<div>
+			<label>Firstname</label>
+			<input type="text" name="Firstname">
+		</div>
+
+		<div>
+			<label>Last name</label>
+			<input type="text" name="Lastname">
+		</div>
+
+		<div>
+			<label>Age</label>
+			<input type="number" name="number">
+		</div>
+
+		<div>
+			<label>Email</label>
+			<input type="Email" name="Email" required>
+		</div>
+
+		<div>
+			<label>Educational background</label>
+			<select>
+				<option value="Bachelor's degree"> Bachelor's degree</option>
+				<option value="Master's degree" selected>Master's degree</option>
+				<option value="Doctorate degree"> Doctorate degree</option>
+			</select>
+		</div>
+
+		<div>
+			<label> Personal Interests</label>
+			<input type="checkbox" name="Art"> Art
+			<input type="checkbox" name="Science"> Science
+			<input type="checkbox" name="Music"> Music
+			<input type="checkbox" name="Nothing"> Nothing
+		</div>
+
+		<div>
+			<label>Are you single?</label>
+			<input type="radio" name="Martial status"> Yes
+			<input type="radio" name="Martial status"> NO
+		</div>
+
+		<div>
+			<label>Password</label>
+			<input type="Password" name="" maxlength="7" required>
+		</div>
+
+		<div>
+			<label>Tell us about yourself</label>
+			<textarea rows="15" cols="25">Write here</textarea> <br><br><br>
+			<input type="File" name="File"> <br><br><br>
+		<button>Submit</button>
+	</div>
+	</form>
+
+</body>
+</html>
